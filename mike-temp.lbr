@@ -4018,11 +4018,11 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pad name="1" x="0" y="0" drill="1.1176" diameter="1.8796" shape="long" rot="R90"/>
 <pad name="2" x="2.54" y="0" drill="1.1176" diameter="1.8796" shape="long" rot="R90"/>
 </package>
-<package name="1X02_NO_SILK">
+<package name="1X02_NO_SILK_ROUNDONLY">
 <pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-1.27" y="-3.175" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 </package>
@@ -10772,6 +10772,74 @@ Source: http://focus.ti.com/lit/ds/symlink/cc2531.pdf</description>
 <wire x1="4" y1="-0.5" x2="4" y2="1.5" width="0.2032" layer="21"/>
 <wire x1="4" y1="-0.5" x2="2" y2="-0.5" width="0.2032" layer="21"/>
 </package>
+<package name="JST-XH-2-SIDE">
+<wire x1="3.7" y1="2.3" x2="3.7" y2="-9.2" width="0.127" layer="21"/>
+<wire x1="3.7" y1="-9.2" x2="1.54" y2="-9.2" width="0.127" layer="21"/>
+<wire x1="1.54" y1="-9.2" x2="-1.54" y2="-9.2" width="0.127" layer="21"/>
+<wire x1="-1.54" y1="-9.2" x2="-3.7" y2="-9.2" width="0.127" layer="21"/>
+<wire x1="-3.7" y1="-9.2" x2="-3.7" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-3.7" y1="2.3" x2="-3" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-3" y1="2.3" x2="-3" y2="-1" width="0.127" layer="21"/>
+<wire x1="-3" y1="-1" x2="3" y2="-1" width="0.127" layer="21"/>
+<wire x1="3" y1="-1" x2="3" y2="2.3" width="0.127" layer="21"/>
+<wire x1="3" y1="2.3" x2="3.7" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-1.54" y1="-9.2" x2="-1.54" y2="-6.08" width="0.127" layer="21"/>
+<wire x1="-1.54" y1="-6.08" x2="1.54" y2="-6.08" width="0.127" layer="21"/>
+<wire x1="1.54" y1="-6.08" x2="1.54" y2="-9.2" width="0.127" layer="21"/>
+<pad name="1" x="-1.25" y="0" drill="0.9" shape="square"/>
+<pad name="2" x="1.25" y="0" drill="0.9"/>
+<text x="-5.588" y="1.905" size="1.27" layer="25" ratio="10" rot="R270">&gt;NAME</text>
+<text x="4.3688" y="2.0828" size="1.27" layer="27" ratio="10" rot="R270">&gt;VALUE</text>
+</package>
+<package name="JST-XH-2-VERT">
+<wire x1="-1.27" y1="2.35" x2="-3.7" y2="2.35" width="0.2032" layer="21"/>
+<wire x1="-3.7" y1="2.35" x2="-3.7" y2="-3.4" width="0.2032" layer="21"/>
+<wire x1="-3.7" y1="-3.4" x2="3.7" y2="-3.4" width="0.2032" layer="21"/>
+<wire x1="3.7" y1="-3.4" x2="3.7" y2="2.35" width="0.2032" layer="21"/>
+<wire x1="3.7" y1="2.35" x2="1.27" y2="2.35" width="0.2032" layer="21"/>
+<pad name="1" x="-1.25" y="0" drill="1" shape="square"/>
+<pad name="2" x="1.25" y="0" drill="1"/>
+<text x="-5.588" y="1.905" size="1.27" layer="25" ratio="10" rot="R270">&gt;NAME</text>
+<text x="4.3688" y="2.0828" size="1.27" layer="27" ratio="10" rot="R270">&gt;VALUE</text>
+</package>
+<package name="1X02_NO_SILK">
+<pad name="1" x="-1.27" y="0" drill="1.016" diameter="1.8796" shape="square" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<text x="-2.6162" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+</package>
+<package name="PHD_573400D00010G">
+<wire x1="-6.096" y1="6.35" x2="-6.096" y2="-6.35" width="0.254" layer="21"/>
+<wire x1="-6.096" y1="-6.35" x2="25.146" y2="-6.35" width="0.254" layer="21"/>
+<wire x1="25.146" y1="-6.35" x2="25.146" y2="6.35" width="0.254" layer="21"/>
+<wire x1="25.146" y1="6.35" x2="-6.096" y2="6.35" width="0.254" layer="21"/>
+<wire x1="0.762" y1="-7.112" x2="-1.27" y2="-7.112" width="0.254" layer="21"/>
+<wire x1="-1.27" y1="-7.112" x2="-1.27" y2="7.112" width="0.254" layer="21"/>
+<wire x1="-1.27" y1="7.112" x2="0.762" y2="7.112" width="0.254" layer="21"/>
+<wire x1="0.762" y1="7.112" x2="0.762" y2="-7.112" width="0.254" layer="21"/>
+<wire x1="18.288" y1="-7.112" x2="20.32" y2="-7.112" width="0.254" layer="21"/>
+<wire x1="20.32" y1="-7.112" x2="20.32" y2="7.112" width="0.254" layer="21"/>
+<wire x1="20.32" y1="7.112" x2="18.288" y2="7.112" width="0.254" layer="21"/>
+<wire x1="18.288" y1="7.112" x2="18.288" y2="-7.112" width="0.254" layer="21"/>
+<smd name="1" x="-0.254" y="0" dx="14.224" dy="3.556" layer="1" rot="R90"/>
+<smd name="2" x="19.304" y="0" dx="14.224" dy="3.556" layer="1" rot="R90"/>
+<text x="-6.096" y="-11.43" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-6.27" y="-9.55" size="1.27" layer="21" ratio="16">&gt;NAME</text>
+</package>
+<package name="AAVID_573400">
+<smd name="P$1" x="-9.398" y="0" dx="2.54" dy="13.97" layer="1" thermals="no"/>
+<smd name="P$2" x="9.398" y="0" dx="2.54" dy="13.97" layer="1" thermals="no"/>
+<rectangle x1="-10.033" y1="-6.35" x2="-8.763" y2="6.35" layer="51"/>
+<rectangle x1="8.763" y1="-6.35" x2="10.033" y2="6.35" layer="51"/>
+<wire x1="-15.494" y1="6.35" x2="15.494" y2="6.35" width="0.2032" layer="51" style="shortdash"/>
+<wire x1="15.494" y1="6.35" x2="15.494" y2="-6.35" width="0.2032" layer="51" style="shortdash"/>
+<wire x1="15.494" y1="-6.35" x2="-15.494" y2="-6.35" width="0.2032" layer="51" style="shortdash"/>
+<wire x1="-15.494" y1="-6.35" x2="-15.494" y2="6.35" width="0.2032" layer="51" style="shortdash"/>
+<text x="-15.24" y="7.62" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-15.24" y="-8.89" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MCP3550">
@@ -12994,6 +13062,25 @@ Source: http://focus.ti.com/lit/ds/symlink/cc2531.pdf</description>
 <text x="-10.16" y="13.97" size="1.778" layer="95" ratio="12">&gt;NAME</text>
 <text x="-10.16" y="-15.875" size="1.778" layer="96" ratio="12">&gt;VALUE</text>
 </symbol>
+<symbol name="HEATSINK-SMD-2">
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="0" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-5.08" y2="0" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.4064" layer="94"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="0" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="0" width="0.4064" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="0" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="0" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="0" width="0.4064" layer="94"/>
+<pin name="P$1" x="-5.08" y="-2.54" visible="off" length="short" rot="R90"/>
+<pin name="P$2" x="5.08" y="-2.54" visible="off" length="short" rot="R90"/>
+<text x="-7.62" y="8.255" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="5.715" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ADC_MCP355X*" prefix="U">
@@ -14764,7 +14851,7 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <technology name=""/>
 </technologies>
 </device>
-<device name="1X02_NO_SILK" package="1X02_NO_SILK">
+<device name="1X02_NO_SILK" package="1X02_NO_SILK_ROUNDONLY">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -14828,6 +14915,15 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </technologies>
 </device>
 <device name="SPRING-2.54-RA" package="SPRINGTERMINAL-2.54MM-2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_NO_SILK" package="1X02_NO_SILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -18295,6 +18391,51 @@ Sensor head for Pulse Oximeter.  Contains IR and visible red LEDs, and PIN photo
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST-XH-2">
+<gates>
+<gate name="G$1" symbol="M02" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="-VERT" package="JST-XH-2-VERT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SIDE" package="JST-XH-2-SIDE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HEATSINK-SMD-2" prefix="HS">
+<description>Aavid/Thermaloy Surface-Mount Heat Sinks&lt;p&gt;
+&lt;a href="http://media.digikey.com/pdf/Data%20Sheets/Aavid%20Thermal%20Technologies%20PDFs/Surface%20Mount%20Heat%20Sinks.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="HEATSINK-SMD-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-AAVID_573400" package="AAVID_573400">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="HEATSINK" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
